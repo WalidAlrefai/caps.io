@@ -27,6 +27,9 @@ describe('testing the server (caps)', () => {
     beforeAll(() => {
         consoleSpy = jest.spyOn(console, 'log').mockImplementation();
     })
+    afterAll(() =>{
+        consoleSpy.mockRestore();
+    })
     it('pickup emiting', async () => {
         io.emit('pickup',vendorData);
         await consoleSpy();
