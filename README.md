@@ -13,4 +13,4 @@ We build of product called caps, CAPS will simulate a delivery service where ven
 # Links
 
 - [Action link](https://github.com/WalidAlrefai/caps.io/actions)
-- [Pull request link](https://github.com/WalidAlrefai/caps.io/pulls/1)
+- [Pull request link](https://github.com/WalidAlrefai/caps.io/pull/1)
